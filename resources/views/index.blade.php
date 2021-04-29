@@ -308,7 +308,7 @@
         <img src="https://switchitapp.com/wp-content/uploads/2020/03/switchit-sharing-options-640x413.png" width="60%" >
         <h3> Share your card with anyone</h3>
         <p>Easily share your digital card with anyone you meet through the online user portal, text message, email, social media, a QR Code, or POS system.</p>
-        <a class="cta-btn" href="{{route('login')}}">Get Started</a>
+        <a class="get-started-btn" href="{{route('login')}}">Get Started</a>
       </div>
 
     </div>
@@ -321,7 +321,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Pricing</h2>
+    
         <p>Our Competing Prices</p>
       </div>
 
@@ -329,29 +329,41 @@
 
         <div class="col-lg-4">
           <div class="box" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Free</h3>
-            <h4>$0<span>per month</span></h4>
+         
+            <h3>INDIVIDUALS</h3>
+            <h4>Free</h4>
+            <P>All you need to go digital</P>
+            <hr>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              <li><i class="bx bx-check"></i> Create up to 5 own cards</li>
+              <li><i class="bx bx-check"></i> Store upto 500 received cards</li>
+              <li><i class="bx bx-check"></i> include logo and profile picture</li>
+              <li><i class="bx bx-check"></i> Email signature creation tool </li>
+              <li><i class="bx bx-check"></i> Android/iOS mobile apps </li>
+              <li><i class="bx bx-check"></i> Unlimited card exchange </li>
+              <li><i class="bx bx-check"></i> Customize your card landing pages  </li>
+              <li><i class="bx bx-check"></i> Scan paper cards with the app  </li>
+             
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn ">Try now</a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Business</h3>
-            <h4>$29<span>per month</span></h4>
+            <h3>FOR BUSINESS</h3>
+            <h4>Price List</h4>
+            <p> A full digital business cards communication suite for your company</p>
+            <hr>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              <li><i class="bx bx-check"></i> All features for individuals  </li>
+              <li><i class="bx bx-check"></i>Total corporate Customization </li>
+              <li><i class="bx bx-check"></i> Card validation</li>
+              <li><i class="bx bx-check"></i>Admin control panel </li>
+              <li><i class="bx bx-check"></i> Insights and usages KPIs</li>
+              <li><i class="bx bx-check"></i> Cards follow corporate guidlines </li>
+              
+              
             </ul>
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
@@ -359,16 +371,21 @@
 
         <div class="col-lg-4">
           <div class="box" data-aos="zoom-in" data-aos-delay="100">
-            <h3>Developer</h3>
-            <h4>$49<span>per month</span></h4>
+            <h3>INTEGRATIONS</h3>
+            <h4>Tailored solutions</h4>
+            <p>Any integration on-demand. Automatizations, CRM, custom URLs and much more</p>
+            <hr>
             <ul>
-              <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-              <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-              <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              <li><i class="bx bx-check"></i> URL Masking </li>
+              <li><i class="bx bx-check"></i> User and card creation from file </li>
+              <li><i class="bx bx-check"></i>Integration with Active Directory  </li>
+              <li><i class="bx bx-check"></i>Single Sign-On. Corporate authenticaton  </li>
+              
+              <li><i class="bx bx-check"></i>Other On-demand developments  </li>
+              <li><i class="bx bx-check"></i>  Support helpdesk </li>
+              
             </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
+            <a href="#" class="get-started-btn">Email Us</a>
           </div>
         </div>
 
