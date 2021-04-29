@@ -176,7 +176,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Services</h2>
+        
         <p>Popular features</p>
       </div>
 
