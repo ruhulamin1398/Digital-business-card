@@ -25,16 +25,26 @@
         <!-- main @s -->
         <div class="nk-main ">
             <!-- sidebar @s -->
-                @include("users.sideNav")
+            @include("users.sideNav")
             <!-- sidebar @e -->
             <!-- wrap @s -->
             <div class="nk-wrap ">
                 <!-- main header @s -->
-           
+
                 @include("users.nav")
                 <!-- main header @e -->
                 <!-- content @s -->
-              @yield("content")
+
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+
+                            <div class="nk-content-body">
+                                @yield("content")
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- content @e -->
                 <!-- footer @s -->
                 @include("users.footer")
@@ -49,7 +59,7 @@
     <!-- JavaScript -->
     <script src="{{asset('assets/js/bundle.js?ver=2.4.0')}}"></script>
     <script src="{{asset('assets/js/scripts.js?ver=2.4.0')}}"></script>
-    
+
     <script src="{{asset('assets/js/libs/editors/summernote.js?ver=2.4.0')}}"></script>
     <script src="{{asset('assets/js/editors.js?ver=2.4.0')}}"></script>
 

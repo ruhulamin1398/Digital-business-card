@@ -54,7 +54,7 @@ class RouteServiceProvider extends ServiceProvider
 
 
             Route::middleware(['web', 'auth'])
-                ->prefix('deshboard')
+                ->prefix('user/deshboard')
                 ->namespace($this->namespace)
                 ->group(base_path('routes/users.php'));
         });
