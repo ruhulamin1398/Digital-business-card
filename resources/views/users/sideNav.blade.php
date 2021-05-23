@@ -16,17 +16,49 @@
             <div class="nk-sidebar-menu" data-simplebar>
                 <ul class="nk-menu">
                     <li class="nk-menu-item">
-                                    <a href="html/index.html" class="nk-menu-link">
-                                        <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
-                                        <span class="nk-menu-text">Default Dashboard</span>
-                                    </a>
-                                </li> 
-               
+                        <a href="{{route('userDeshboard')}}" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">Default Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nk-menu-item">
+                        <a href="{{route('cards.create')}}" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">New Card</span>
+                        </a>
+                    </li>
+
+                    <li class="nk-menu-item">
+                        <a href="{{route('cards.index')}}" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">My Cards</span>
+                        </a>
+                    </li>
+
+                    <li class="nk-menu-item">
+                        <a href="{{route('saved-cards.index')}}" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">Save Cards</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nk-menu-item">
+                        <a href="{{route('saved-cards.index')}}" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">Plans</span>
+                        </a>
+                    </li>
+
+
+    
 
 
 
 
 
+                    {{--
 
 
 
@@ -46,13 +78,15 @@
                         </ul><!-- .nk-menu-sub -->
                     </li><!-- .nk-menu-item -->
 
+                    --}}
 
- 
+
+
 
                     <li style="border-bottom:1px solid rgb(102, 102, 102,.2)"> </li>
 
 
-            
+
 
 
                 </ul><!-- .nk-menu -->

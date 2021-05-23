@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CardController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -17,4 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('users.index');
 })->name('userDeshboard');
+Route::resource('cards',CardController::class);
+Route::resource('saved-cards',CardController::class);
 

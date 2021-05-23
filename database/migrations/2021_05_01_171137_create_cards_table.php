@@ -26,11 +26,13 @@ class CreateCardsTable extends Migration
             $table->string('street_1')->nullable();;
             $table->string('street_2')->nullable();;
             $table->string('postal')->nullable();;
+            $table->string('city')->nullable();;
             $table->string('state')->nullable();;
             $table->string('country')->nullable();;
             $table->string('back_side_image')->nullable();;
             $table->string('your_photo')->nullable();;
             $table->string('logo')->nullable();;
+            $table->string('profile_photo')->nullable();;
 
             // additional 
 

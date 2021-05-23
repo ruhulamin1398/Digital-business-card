@@ -16,6 +16,7 @@
     <link id="skin-default" rel="stylesheet" href="{{asset('assets/css/theme.css?ver=2.4.0')}}">
     <link rel="stylesheet" href="{{asset('assets/css/editors/summernote.css?ver=2.4.0')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/libs/fontawesome-icons.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/card.css')}}">
 
     @yield('css')
 </head>
