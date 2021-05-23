@@ -69,9 +69,21 @@
 
       <div class="row">
 
+        <!-- <div class="col-lg-5 align-items-stretch video-box" style="background-image: url({{asset('abasas/assets/img/why-us.jpg')}})" data-aos="zoom-in" data-aos-delay="100">
+          <a href="{{asset('video/Presentation-CardeX-1080p-210511.mp4')}}" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+        </div> -->
+
         <div class="col-lg-5 align-items-stretch video-box" style="background-image: url({{asset('abasas/assets/img/why-us.jpg')}})" data-aos="zoom-in" data-aos-delay="100">
-          <a href="https://youtu.be/PQGxu_oeCHw" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          <video width="100%" height="100%" controls>
+            <source src="{{asset('video/Presentation-CardeX-1080p-210511.mp4')}}" type="video/mp4">
+            <source src="{{asset('video/Presentation-CardeX-1080p-210511.mp4')}}" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
         </div>
+
+
+
+
 
         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
 
@@ -133,12 +145,12 @@
 
 
 
-      <div class=" col-12 col-lg-4 col-md-4 d-md-flex align-items-md-stretch">
+        <div class=" col-12 col-lg-4 col-md-4 d-md-flex align-items-md-stretch">
           <div class="count-box">
             <i class="icofont-tree"></i>
             <span data-toggle="counter-up">2400</span>
             <p class="text-center">Trees cut <strong> every day </strong> to make business cards</p>
-            
+
           </div>
         </div>
 
@@ -148,7 +160,7 @@
             <i class="icofont-ui-v-card"></i>
             <span data-toggle="counter-up">60,000,000 </span>
             <p class="text-center"> Business cards printed <strong> every day </strong></p>
-          
+
           </div>
         </div>
 
@@ -157,8 +169,8 @@
           <div class="count-box">
             <i class="icofont-globe"></i>
             <span data-toggle="counter-up">746,594</span>
-            <p class="text-center">tons of CO2 emitted  annually</p>
-          
+            <p class="text-center">tons of CO2 emitted annually</p>
+
           </div>
         </div>
 
@@ -176,7 +188,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        
+
         <p>Popular features</p>
       </div>
 
@@ -296,16 +308,16 @@
     </div>
   </section><!-- End About Section -->
 
-  
+
 
   <!-- ======= Cta Section ======= -->
   <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
-        
-      
-        <img src="https://switchitapp.com/wp-content/uploads/2020/03/switchit-sharing-options-640x413.png" width="60%" >
+
+
+        <img src="https://switchitapp.com/wp-content/uploads/2020/03/switchit-sharing-options-640x413.png" width="60%">
         <h3> Share your card with anyone</h3>
         <p>Easily share your digital card with anyone you meet through the online user portal, text message, email, social media, a QR Code, or POS system.</p>
         <a class="get-started-btn" href="{{route('login')}}">Get Started</a>
@@ -314,14 +326,14 @@
     </div>
   </section><!-- End Cta Section -->
 
-  
+
 
   <!-- ======= Pricing Section ======= -->
   <section id="pricing" class="pricing">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-    
+
         <p>Our Competing Prices</p>
       </div>
 
@@ -329,7 +341,7 @@
 
         <div class="col-lg-4">
           <div class="box" data-aos="zoom-in" data-aos-delay="100">
-         
+
             <h3>INDIVIDUALS</h3>
             <h4>Free</h4>
             <P>All you need to go digital</P>
@@ -341,9 +353,9 @@
               <li><i class="bx bx-check"></i> Email signature creation tool </li>
               <li><i class="bx bx-check"></i> Android/iOS mobile apps </li>
               <li><i class="bx bx-check"></i> Unlimited card exchange </li>
-              <li><i class="bx bx-check"></i> Customize your card landing pages  </li>
-              <li><i class="bx bx-check"></i> Scan paper cards with the app  </li>
-             
+              <li><i class="bx bx-check"></i> Customize your card landing pages </li>
+              <li><i class="bx bx-check"></i> Scan paper cards with the app </li>
+
             </ul>
             <a href="#" class="get-started-btn ">Try now</a>
           </div>
@@ -356,14 +368,14 @@
             <p> A full digital business cards communication suite for your company</p>
             <hr>
             <ul>
-              <li><i class="bx bx-check"></i> All features for individuals  </li>
+              <li><i class="bx bx-check"></i> All features for individuals </li>
               <li><i class="bx bx-check"></i>Total corporate Customization </li>
               <li><i class="bx bx-check"></i> Card validation</li>
               <li><i class="bx bx-check"></i>Admin control panel </li>
               <li><i class="bx bx-check"></i> Insights and usages KPIs</li>
               <li><i class="bx bx-check"></i> Cards follow corporate guidlines </li>
-              
-              
+
+
             </ul>
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
@@ -378,12 +390,12 @@
             <ul>
               <li><i class="bx bx-check"></i> URL Masking </li>
               <li><i class="bx bx-check"></i> User and card creation from file </li>
-              <li><i class="bx bx-check"></i>Integration with Active Directory  </li>
-              <li><i class="bx bx-check"></i>Single Sign-On. Corporate authenticaton  </li>
-              
-              <li><i class="bx bx-check"></i>Other On-demand developments  </li>
-              <li><i class="bx bx-check"></i>  Support helpdesk </li>
-              
+              <li><i class="bx bx-check"></i>Integration with Active Directory </li>
+              <li><i class="bx bx-check"></i>Single Sign-On. Corporate authenticaton </li>
+
+              <li><i class="bx bx-check"></i>Other On-demand developments </li>
+              <li><i class="bx bx-check"></i> Support helpdesk </li>
+
             </ul>
             <a href="#" class="get-started-btn">Email Us</a>
           </div>
